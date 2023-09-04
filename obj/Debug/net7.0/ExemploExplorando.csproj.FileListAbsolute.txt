@@ -1,0 +1,15 @@
+C:\ProjetosVscode\ExemploExplorando\bin\Debug\net7.0\ExemploExplorando.exe
+C:\ProjetosVscode\ExemploExplorando\bin\Debug\net7.0\ExemploExplorando.deps.json
+C:\ProjetosVscode\ExemploExplorando\bin\Debug\net7.0\ExemploExplorando.runtimeconfig.json
+C:\ProjetosVscode\ExemploExplorando\bin\Debug\net7.0\ExemploExplorando.dll
+C:\ProjetosVscode\ExemploExplorando\bin\Debug\net7.0\ExemploExplorando.pdb
+C:\ProjetosVscode\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.csproj.AssemblyReference.cache
+C:\ProjetosVscode\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjetosVscode\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.AssemblyInfoInputs.cache
+C:\ProjetosVscode\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.AssemblyInfo.cs
+C:\ProjetosVscode\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.csproj.CoreCompileInputs.cache
+C:\ProjetosVscode\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.dll
+C:\ProjetosVscode\ExemploExplorando\obj\Debug\net7.0\refint\ExemploExplorando.dll
+C:\ProjetosVscode\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.pdb
+C:\ProjetosVscode\ExemploExplorando\obj\Debug\net7.0\ExemploExplorando.genruntimeconfig.cache
+C:\ProjetosVscode\ExemploExplorando\obj\Debug\net7.0\ref\ExemploExplorando.dll
