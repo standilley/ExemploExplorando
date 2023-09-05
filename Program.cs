@@ -3,40 +3,160 @@ using System.Globalization;
 using System.Runtime.Serialization;
 using ExemploExplorando.Models;
 
-Dictionary<string, string> estados = new Dictionary<string, string>();
+int numero = 10;
+bool ehPar = numero % 2 == 0;
 
-estados.Add("SP", "São Paulo");
-estados.Add("BA", "Bahia");
-estados.Add("MG", "Minas Gerais");
+Console.WriteLine($"O numero {numero} é " + (ehPar ? "paro" : "impar"));
 
-foreach (var item in estados)
-{
-    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
-}
 
-estados.Remove("BA");
-estados["SP"] = "São_Paulo";
-Console.WriteLine("--------------------------------");
 
-foreach (var item in estados)
-{
-    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
-}
 
-string chave = "BA";
 
-Console.WriteLine($"Verificar a chave: {chave}");
 
-if (estados.ContainsKey(chave))
-{
-    Console.WriteLine($"Valor Existente: {chave}");
-}
-else
-{
-    Console.WriteLine($"Valor inexistente, É seguro adicionar a chave: {chave}");
-}
 
-Console.WriteLine(estados["SP"]);
+
+
+
+// if (numero % 2 == 0)
+// {
+//     Console.WriteLine($"O numero {numero} é par");
+// }
+// else
+// {
+//     Console.WriteLine($"O numero {numero} é impar");
+
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa("Standilley", "Oliveira");
+
+// (string nome, string sobrenome) = p1;
+
+// Console.WriteLine($"{nome} {sobrenome}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// LeituraArquivo arquivo = new LeituraArquivo();
+
+// var (sucesso, linhasArquivo, quandidadeLinhas) = arquivo.LerArquivo("Arquivos/ArquivoLeitura.txt");
+
+// if (sucesso)
+// {
+    
+//     Console.WriteLine("Quantidade linhas do Arquivo: " + quandidadeLinhas);
+//     foreach(string linha in linhasArquivo)
+//     {
+//         Console.WriteLine(linha);
+//     }
+// }
+// else 
+// {
+//     Console.WriteLine("Não foi possivel ler o arquivo");
+// }
+
+
+
+
+
+
+// (int ID, string Nome, string Sobrenome, decimal Altura) tupla = (2, "Tandy", "Oliveira", 1.92M);
+
+// Console.WriteLine($"ID: {tupla.ID}");
+// Console.WriteLine($"Nome: {tupla.Nome}");
+// Console.WriteLine($"Sobrenome: {tupla.Sobrenome}");
+// Console.WriteLine($"Altura: {tupla.Altura}");
+// Console.WriteLine($"------------------------------");
+
+// ValueTuple<int, string, string, decimal> outraSintaxeTupla = (5, "Aldilane", "Oliveira", 1.75M);
+
+// Console.WriteLine($"ID: {outraSintaxeTupla.Item1}");
+// Console.WriteLine($"Nome: {outraSintaxeTupla.Item2}");
+// Console.WriteLine($"Sobrenome: {outraSintaxeTupla.Item3}");
+// Console.WriteLine($"Altura: {outraSintaxeTupla.Item4}");
+// Console.WriteLine($"--------------------------------");
+
+// var outroExemploTuplaCreate = Tuple.Create(4,"Scarlat","Oliveira", 1.77M);
+// Console.WriteLine($"ID: {outroExemploTuplaCreate.Item1}");
+// Console.WriteLine($"Nome: {outroExemploTuplaCreate.Item2}");
+// Console.WriteLine($"Sobrenome: {outroExemploTuplaCreate.Item3}");
+// Console.WriteLine($"Altura: {outroExemploTuplaCreate.Item4}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Dictionary<string, string> estados = new Dictionary<string, string>();
+
+// estados.Add("SP", "São Paulo");
+// estados.Add("BA", "Bahia");
+// estados.Add("MG", "Minas Gerais");
+
+// foreach (var item in estados)
+// {
+//     Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+// }
+
+// estados.Remove("BA");
+// estados["SP"] = "São_Paulo";
+// Console.WriteLine("--------------------------------");
+
+// foreach (var item in estados)
+// {
+//     Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+// }
+
+// string chave = "BA";
+
+// Console.WriteLine($"Verificar a chave: {chave}");
+
+// if (estados.ContainsKey(chave))
+// {
+//     Console.WriteLine($"Valor Existente: {chave}");
+// }
+// else
+// {
+//     Console.WriteLine($"Valor inexistente, É seguro adicionar a chave: {chave}");
+// }
+
+// Console.WriteLine(estados["SP"]);
 
 
 
