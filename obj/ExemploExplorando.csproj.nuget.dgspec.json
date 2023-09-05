@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\ProjetosVscode\\ExemploExplorando\\ExemploExplorando.csproj": {}
+    "C:\\ProjetosVscode\\ExemploExplorando\\ExemploExplorando.csproj": {}
   },
   "projects": {
-    "c:\\ProjetosVscode\\ExemploExplorando\\ExemploExplorando.csproj": {
+    "C:\\ProjetosVscode\\ExemploExplorando\\ExemploExplorando.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\ProjetosVscode\\ExemploExplorando\\ExemploExplorando.csproj",
+        "projectUniqueName": "C:\\ProjetosVscode\\ExemploExplorando\\ExemploExplorando.csproj",
         "projectName": "ExemploExplorando",
-        "projectPath": "c:\\ProjetosVscode\\ExemploExplorando\\ExemploExplorando.csproj",
+        "projectPath": "C:\\ProjetosVscode\\ExemploExplorando\\ExemploExplorando.csproj",
         "packagesPath": "C:\\Users\\Standilley-Dev\\.nuget\\packages\\",
-        "outputPath": "c:\\ProjetosVscode\\ExemploExplorando\\obj\\",
+        "outputPath": "C:\\ProjetosVscode\\ExemploExplorando\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
