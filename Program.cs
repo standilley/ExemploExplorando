@@ -1,20 +1,51 @@
 ﻿using System.Collections;
 using System.Globalization;
+using System.Runtime.Intrinsics;
 using System.Runtime.Serialization;
 using ExemploExplorando.Models;
+using Newtonsoft.Json;
 
-int numero = 10;
-bool ehPar = numero % 2 == 0;
+DateTime dataAtual = DateTime.Now;
 
-Console.WriteLine($"O numero {numero} é " + (ehPar ? "paro" : "impar"));
+List<Venda> listaVendas = new List<Venda>();
 
-
-
-
-
-
+Venda v1 = new Venda(15,"Material de construção", 40.00M, dataAtual);
+Venda v2 = new Venda(12,"Licença de construção", 100.00M, dataAtual);
+Venda v3 = new Venda(10,"Aquitetura da construção", 90.00M, dataAtual);
 
 
+listaVendas.Add(v1);
+listaVendas.Add(v2);
+listaVendas.Add(v3);
+
+string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+
+File.WriteAllText("Arquivos/Vendas.json", serializado);
+
+Console.WriteLine(serializado);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int numero = 10;
+// bool ehPar = numero % 2 == 0;
+
+// Console.WriteLine($"O numero {numero} é " + (ehPar ? "par" : "impar"));
 
 
 // if (numero % 2 == 0)
