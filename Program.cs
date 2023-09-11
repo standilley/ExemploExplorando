@@ -5,17 +5,154 @@ using System.Runtime.Serialization;
 using ExemploExplorando.Models;
 using Newtonsoft.Json;
 
-string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+Pessoa p1 = new Pessoa(nome: "Tandy", sobrenome: "Oliveira");
+Pessoa p2 = new Pessoa(nome: "Aldilane", sobrenome: "Oliveira");
 
-List<Venda> listaVendas = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
-
-foreach (Venda venda in listaVendas)
-{
-    Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, " + 
-                    $"Preço: {venda.Preco}, Data: {venda.DataVenda.ToString("dd/MM,yyyy HH:mm")}");
-}
+Console.WriteLine($"Nome da pessoa p1: {p1.NomeCompleto}");
+Console.WriteLine($"Nome da pessoa p2: {p2.NomeCompleto}");
+p1.Idade = 5;
+p1.Apresentar();
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int numero = 21;
+// bool par = false;
+
+// par = numero.EhPar();
+
+// string mensagem = $"O Numero {numero} é {(par ? "par" : "impar")}";
+// Console.WriteLine(mensagem);
+
+// int teste = 2;
+// teste.EhPar();
+
+
+// MeuArray<int> arrayInteiro = new MeuArray<int>();
+
+// arrayInteiro.AdicionarElementoArray(10);
+
+// Console.WriteLine(arrayInteiro[0]);
+
+// MeuArray<string> arrayString = new MeuArray<string>();
+// arrayString.AdicionarElementoArray("Tandy");
+// Console.WriteLine(arrayString[0]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// dynamic variavelDinamica = 4;
+
+// Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, valor: {variavelDinamica}");
+
+
+// variavelDinamica = "texto";
+// Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, valor: {variavelDinamica}");
+
+// variavelDinamica = true;
+// Console.WriteLine($"Tipo da variável: {variavelDinamica.GetType()}, valor: {variavelDinamica}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+// string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+
+// List<Venda> listaVendas = JsonConvert.DeserializeObject<List<Venda>>(conteudoArquivo);
+
+
+// var listaAnonimo = listaVendas.Select(x => new {x.Produto, x.Preco });
+
+// foreach (var anonimo in listaAnonimo)
+// {
+//     Console.WriteLine($"Produto: {anonimo.Produto} , Preço: {anonimo.Preco}");
+// }
+
+
+
+
+
+
+
+
+
+
+// foreach (Venda venda in listaVendas)
+// {
+//     Console.WriteLine($"Id: {venda.Id}, Produto: {venda.Produto}, " +
+//                     $"Preço: {venda.Preco}, Data: {venda.DataVenda}, " +
+//                     $"{(venda.Desconto.HasValue ? $"Desconto de: {venda.Desconto}" : "")}");
+// }
+
+
+
+// var valorAnonimo = new {Nome = "Tandy", Sobrenome = "Oliveira", Altura = 1.92 };
+
+// Console.WriteLine($"Nome: {valorAnonimo.Nome}");
+// Console.WriteLine($"Sobrenome: {valorAnonimo.Sobrenome}");
+// Console.WriteLine($"Altura: {valorAnonimo.Altura}");
 
 
 

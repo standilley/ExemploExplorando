@@ -3,18 +3,21 @@
     "Id": 15,
     "Nome_Produto": "Material de construção",
     "Preco": 40.00,
-    "DataVenda": "2023-09-06T21:47:11.8660624-03:00"
+    "DataVenda": "2023-09-06T21:47:11.8660624-03:00",
+    "Desconto": null
   },
   {
     "Id": 12,
     "Nome_Produto": "Licença de construção",
     "Preco": 100.00,
-    "DataVenda": "2023-09-06T21:47:11.8660624-03:00"
+    "DataVenda": "2023-09-06T21:47:11.8660624-03:00",
+    "Desconto": 10.00
   },
   {
     "Id": 10,
     "Nome_Produto": "Aquitetura da construção",
     "Preco": 90.00,
-    "DataVenda": "2023-09-06T21:47:11.8660624-03:00"
+    "DataVenda": "2023-09-06T21:47:11.8660624-03:00",
+    "Desconto": null
   }
 ]
